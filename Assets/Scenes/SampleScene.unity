@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -513,7 +513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -971,6 +971,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e038ba072912d7848a04d2a8ac8fd00d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topTransform: {fileID: 1614801410}
+  goalTransform: {fileID: 4603697955119120253}
+  helixLevelPrefab: {fileID: 4603697956666542841, guid: 07bb684ee19b68148b5d86c260c82a88, type: 3}
+  allStages:
+  - {fileID: 11400000, guid: da74d4ba5a24aeb4189456df44c4ecf8, type: 2}
+  helixDistance: 0
 --- !u!1001 &4403756411362548682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1035,6 +1041,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2041634372}
     m_Modifications:
+    - target: {fileID: 3195089584813222734, guid: 07bb684ee19b68148b5d86c260c82a88, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3195089585575716389, guid: 07bb684ee19b68148b5d86c260c82a88, type: 3}
       propertyPath: m_IsActive
       value: 1
