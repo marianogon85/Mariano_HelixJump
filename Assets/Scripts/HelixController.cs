@@ -26,7 +26,7 @@ public class HelixController : MonoBehaviour
         LoadStage(0);
     }
 
-    void Update()
+    public void Update()
     {
         if(Input.GetMouseButton(0))
         {
@@ -50,7 +50,7 @@ public class HelixController : MonoBehaviour
 
     public void LoadStage(int stageNumber) 
     {
-        Stage stage = allStages[Mathf.Clamp(stageNumber,0,allStages.Count-1)];
+        Stage stage = allStages[Mathf.Clamp(stageNumber,0,allStages.Count-1 )];
 
         if(stage ==null)
         {
